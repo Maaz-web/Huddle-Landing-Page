@@ -1,221 +1,260 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #ebfbff;
+  background-color: #ebfbff;
 
-    background-image: url(./images/bg-hero-desktop.svg);
-    background-size: cover;
-    height: 100%;
-   margin-bottom: 300px;
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 300px;
 
 }
 
 header .first {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 3rem;
 }
 
 header .second {
-    justify-content: space-around;
-    align-items: flex-end;
-    color: #00252e;
-    height: 400px;
-    padding: 30px;
-    align-items: center;
-    
-    
+  justify-content: space-around;
+  align-items: flex-end;
+  color: #00252e;
+  height: 400px;
+  padding: 30px;
+  align-items: center;
+
+
 }
-  header .second .heading {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
 
-  }
-  header .second .para {
-    font-size: 1.2rem;
-    
-    margin-bottom: 1.5rem;   
-  }
+header .second .heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 
-  header .second .community-interface {
-    font-size: 3px;
-    margin-top: 10px;
-    margin-bottom: 60px; }
+}
 
-    .button {
-    border-radius: 28px;
-    width: 14rem;
-    padding: 18px;
-    font-size: 20px;
-    background-color: #ebfbff;
-    color: gray
-    
+header .second .para {
+  font-size: 1.2rem;
 
-    }
+  margin-bottom: 1.5rem;
+}
 
-    .button1 {
-      border: 2px solid pink;
-      border-radius: 30px;
-      background-color: #b6498e;
-      width: 15rem;
-      padding: 18px;
-      font-size: 17px;
+header .second .community-interface {
+  font-size: 3px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.button {
+  border: 0;
+  border-radius: 28px;
+  width: 14rem;
+  padding: 2px;
+  font-size: 20px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  background-color:white;
+  color: gray
+}
+
+.button1 {
+  border: 2px solid pink;
+  border-radius: 30px;
+  background-color: #b6498e;
+  width: 15rem;
+  padding: 18px;
+  font-size: 17px;
+  color: white;
+
+}
+
+main {
+  padding: 60px;
+}
+
+.GT {
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18px;
+  margin-bottom: 40px;
+}
+
+.benefit-img {
+  float: right;
+}
+
+.message h1 {
+  color: #00252e;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.message p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+
+}
+
+
+.FC {
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18px;
+  margin-bottom: 40px;
+}
+
+.YU {
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18px;
+  margin-bottom: 40px;
+}
+
+.upward {
+  position: relative;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  max-width: 100%;
+  width: 70%;
+  border-radius: 10px;
+  padding: 60px 0px;
+  margin-bottom: -105px;
+
+}
+
+.button2 {
+  border-radius: 50px;
+  width: 20rem;
+  padding: 18px;
+  font-size: 22px;
+  background-color: #b6498e;
+  color: white;
+
+}
+
+.upward h3 {
+  line-height: 4;
+  margin-top: 0;
+  color: #00252e;
+  font-size: 30px;
+
+}
+
+.main {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #00252e;
+  color: white;
+  padding: 140px 50px 70px;
+}
+
+.ouDetails {
+  margin: 20px;
+  padding: 30px;
+
+
+
+
+
+
+}
+
+.firstlist {
+  line-height: 1.5;
+  list-style-type: none;
+  padding: 75px;
+
+
+
+}
+
+.secondlist {
+  margin-bottom: 10px;
+  line-height: 2;
+  padding: 75px;
+  list-style-type: none;
+
+}
+
+.social-media {
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 12px
+    /* padding: 75px; */
+}
+
+
+/* 
+    footer {
       color: white;
-
+      background-color: #00252e;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      line-height: 3;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
     }
-
-    main {
-      padding: 60px;
+    
+    footer .main {
+      padding-left: 60px;
+      padding-right: 60px;
     }
-
-    .GT {
-
-      padding: 30px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      border-radius: 18px;
-    margin-bottom: 40px;
-    }
-
-    .benefit-img {
-      float: right;
-    }
-
-    .message h1 {
-      color: #00252e;
-      font-size: 2rem;
-      line-height: 2;
-    }
-    .message p {
-      font-size: 1.2rem;
-      line-height: 2rem;
-      
-    }
-
-  
-    .FC {
-      padding: 30px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      border-radius: 18px;
-    margin-bottom: 40px;
-    }
-
-    .YU {
-      padding: 30px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      border-radius: 18px;
-    margin-bottom: 40px;
-    }
-
-    .upward {
-      display: flex;
-      flex-direction: column;
-     
-      align-items: center;
-      justify-content: center;
-     
-      width: 95%;
-      height: 180px;
-    }
-
-    .button2 {
-      border-radius: 50px;
-      width: 25rem;
-      padding: 20px;
-      font-size: 20px;
-      background-color:#b6498e;
+    footer .logo {
       color: white;
-      
+      margin-bottom: 15px;
     }
-    .upward h3 {
-      line-height: 2;
-      margin-top: 0;
-      color: #00252e;
-      font-size: 40px;
-
-      footer {
-        position: relative;
-        padding-top: 150px;
-        padding-right: 10px;
-        padding-left: 10px;
-        color: #fff;
-        font-size: 0.9rem;
-        line-height: 0.9rem;
-      }
-      footer .main-wrapper {
-        padding-left: 60px;
-        padding-right: 60px;
-      }
-      footer .logo {
-        margin-bottom: 15px;
-      }
-      footer .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-      }
-      footer .first {
-        flex-basis: 35%;
-        flex-grow: 0;
-        align-self: center;
-      }
-      footer .first .logo {
-        margin-bottom: 15px;
-      }
-      footer .first .logo img {
-        width: 150px;
-      }
-      footer .first .item-container {
-        display: flex;
-        align-items: flex-start;
-        align-content: flex-start;
-      }
-      footer .first .item-container p {
-        margin-left: 10px;
-        align-self: baseline;
-      }
-      footer .first .icon {
-        width: 10px;
-        align-self: baseline;
-      }
-      footer .fourth {
-        flex-basis: 20%;
-        flex-grow: 0;
-        height: 70px;
-        display: flex;
-      }
-      footer .fourth .fab {
-        padding: 5px;
-        font-size: 12px;
-        color: #fff;
-        width: 12px;
-        height: 12px;
-        text-align: center;
-        text-decoration: none;
-        border: 1px solid #fff;
-        border-radius: 50%;
-        margin-right: 12px;
-      }
-      footer .fourth .fab:last-child {
-        margin-right: 0;
-      }
-      footer .secondary-wrapper {
-        padding-left: 60px;
-        display: flex;
-        justify-content: flex-end;
-      }
-      footer .secondary-wrapper .secondary {
-        width: 23%;
-        padding-right: 20px;
-        font-size: 0.6rem;
-      }
+    
+    footer .main {
+      
+      line-height: 3;
+      align-items: flex-start;
+    }
+    footer .main .logo {
+      margin-bottom: 15px;
+    }
+    footer .main .logo img {
+      width: 150px;
+    }
+    footer .main .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .main .item-container p {
+      margin-left: 10px;
+      align-self: baseline;
+    }
+    footer .main .icon {
+      width: 10px;
+      align-self: baseline;
+    }
+     */
